@@ -1,0 +1,210 @@
+.portfolio-header {
+  position: relative;
+  background-color: #FFFFFF;
+}
+.portfolio-header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+.mdl-layout__content {
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-flow: column nowrap;
+-ms-flex-flow: column nowrap;
+flex-flow: column nowrap;
+}
+.mdl-layout__content > *:not(.mdl-layout-spacer) {
+-webkit-flex: none;
+-ms-flex: none;
+flex: none;
+}
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+.portfolio-logo-row {
+  min-height: 65px;
+}
+.is-compact .portfolio-logo-row {
+  max-height: 100px;
+}
+.portfolio-logo {
+  background: url(images/logouns.png) 50% no-repeat;
+  background-size: contain;
+  height: 65px;
+  width: 295px;
+}
+.is-compact .portfolio-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+  float:left;
+}
+.portfolio-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+.portfolio-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+.portfolio-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+.portfolio-header .mdl-layout__drawer-button {
+    background-color: transparent;
+	color:  #000000;
+}
+.mdl-layout__drawer {
+  width: 400px;
+  left: -200px;
+}
+.mdl-layout__drawer.is-visible {
+  left: 0;
+}
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+.portfolio-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}
+.portfolio-card .mdl-card__media {
+  box-sizing: border-box;
+  background-size: cover;
+  background-color: #FFFFFF;
+}
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+.portfolio-blog-card-full-bg {
+  background: url(images/example-blog03.jpg) center / cover;
+}
+.portfolio-blog-card-event-bg {
+  background: url(images/example-blog05.jpg) center / cover;
+}
+.portfolio-blog-card-strip-bg {
+  background: url(images/example-blog06.jpg) center / cover;
+}
+.portfolio-blog-card-compact .mdl-card__title {
+  padding-bottom: 0;
+}
+.portfolio-blog-card-bg > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+img.article-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+.portfolio-copy {
+  max-width: 700px;
+}
+.no-padding {
+  padding: 0;
+}
+.no-left-padding{
+  padding-left: 0;
+}
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+.padding-top {
+  padding: 10px 0 0;
+}
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+.portfolio-contact .mdl-textfield {
+  width: 100%;
+}
+.portfolio-contact form {
+  max-width: 550px;
+  margin: auto;
+}
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  opacity: 1.0;
+  border-radius: 0px;
+}
+.social-btn__twitter_black {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+}
+.social-btn__facebook_black {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
+}
+.social-btn__share {
+  color: rgba(0, 0, 0, 0.54);
+  background: transparent;
+}
+.social-btn__g3w {
+  background-image: url('images/botong3w.png');
+}
+.android-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+footer {
+  background-image: url(images/footer-background.png);
+  background-size: cover;
+}
+         /* unvisited link */
+         a:link {
+         color: rgba(0, 0, 0, 0.7);
+         text-decoration: none;
+         }
+         /* visited link */
+         a:visited {
+         color: rgba(0, 0, 0, 0.5);
+         text-decoration: underline;
+         }
+         /* mouse over link */
+         a:hover {
+         color: #304FFE;
+         text-decoration: none;
+         }
+         /* selected link */
+         a:active {
+         color: #304FFE;
+         text-decoration: none;
+         } a:active {
+         color: #304FFE;
+         text-decoration: none;
+         }
+		 p {
+    text-align: justify;
+}
